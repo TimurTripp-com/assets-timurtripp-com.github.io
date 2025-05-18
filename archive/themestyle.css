@@ -1,0 +1,293 @@
+/*TimurTripp.com Style Sheet, 2.2.3 12/19/2013. Document meets CSS3 standards. © 2011-2013 TimurTripp.com*/
+body{
+	margin: 0;
+	padding: 0;	
+}
+div#header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-clip: padding-box;
+	border-bottom: 2px solid rgba(0,0,0,.2);
+	width: 100%;
+	z-index: 1;
+	opacity: 1.0;
+}
+div.subnavdiv{
+	position: relative;
+	width: 920px;
+	margin: 0 auto;
+}
+div#header, div.subnavdiv{
+	color: #FFFFFF;
+	background-color: #58ACFA;
+	background-image: url(gradient-top.png);
+	background-image: -webkit-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -moz-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -o-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -ms-linear-gradient(top, #58ACFA, #0080FF);
+	background-repeat: repeat-x;
+	height: 32px;
+	min-width: 920px;
+	text-align: center;
+}
+#logotext{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #FFFFFF;
+	background: transparent;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	text-shadow: 1px 1px 0 #000000;
+	padding: 0 6px;
+}
+ul#navlist, ul.subnavlist{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	zoom: 1;
+}
+ul#navlist li, ul.subnavlist li{
+	position: relative;
+	height: 32px;
+	display: inline;
+	overflow: hidden;
+	zoom: 1;
+}
+ul#navlist li a, ul.subnavlist li a{
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+	text-shadow: 1px 1px 0 #000000;
+	padding: 0 10px;
+	zoom: 1;
+}
+ul#navlist li a:link, ul#navlist li a:visited, ul.subnavlist li a:link, ul.subnavlist li a:visited{
+	color: #FFFFFF;
+	background: transparent;
+	text-decoration: none;
+}
+ul#navlist li a:hover, ul#navlist li a:active, ul.subnavlist li a:hover, ul.subnavlist li a:active{
+	color: #FFFFFF;
+	background-color: #0080FF;
+}
+ul#navlist li a#navcurpage:link, ul#navlist li a#navcurpage:visited, ul#navlist li a#navcurpage:hover, ul#navlist li a#navcurpage:active, ul.subnavlist li a.subnavcurpage:link, ul.subnavlist li a.subnavcurpage:visited, ul.subnavlist li a.subnavcurpage:hover, ul.subnavlist li a.subnavcurpage:active{
+	color: #FFFFFF;
+	background-color: #58ACFA;
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+div#containerdiv{
+	position: absolute;
+	top: 32px;
+	left: 0;
+	background: transparent;
+	width: 100%;
+	margin: 0 0;
+	padding: 0 0;
+}
+div#bodydiv{
+	position: relative;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-left: 2px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	width: 900px;
+	margin: 0 auto;
+	padding: 8px 8px;
+}
+div#footer{
+	color: #FFFFFF;
+	background-color: #58ACFA;
+	background-image: url(gradient-top.png);
+	background-image: -webkit-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -moz-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -o-linear-gradient(top, #58ACFA, #0080FF);
+	background-image: -ms-linear-gradient(top, #58ACFA, #0080FF);
+	background-repeat: repeat-x;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	width: 920px;
+	height: 16px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000000;
+	margin: 0 auto;
+	padding: 8px 0;
+}
+div#footer a:link, div#footer a:visited, div#footer a:hover, div#footer a:active{
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+.old-styling h1{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 20px 0;
+}
+.old-styling h2{
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 24px;
+	margin: 21px 0;
+}
+.old-styling h3{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 16px;
+	margin: 20px 0;
+}
+.old-styling h4{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.old-styling p{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+	margin: 14px 0;
+}
+.old-styling hr{
+	background-color: #CCCCCC;
+	border: 0;
+	height: 2px;
+	margin: 8px 0;
+	padding: 0;
+}
+.old-styling input{
+	font: inherit;
+	font-weight: normal;
+	max-height: 32px;
+	outline: none;
+}
+div#bodydiv a:link{
+	color: #0080FF;
+	text-decoration: none;
+}
+div#bodydiv a:visited{
+	color: #58ACFA;
+	text-decoration: none;
+}
+div#bodydiv a:hover{
+	text-decoration: underline;
+}
+div#bodydiv a:active{
+	text-decoration: underline;
+}
+.navlist a:link, .navlist a:visited, input{
+	color: #FFFFFF !important;
+	background-color: #0080FF;
+	text-decoration: none !important;
+	border: 2px solid #0080FF;
+	border-radius: 16px;
+	padding: 6px 8px;
+}
+.navlist a:hover, input:hover{
+	color: #FFFFFF !important;
+	background-color: #58ACFA;
+	text-decoration: none !important;
+	border: 2px solid #58ACFA;
+	border-radius: 16px;
+	padding: 6px 8px;
+}
+.navlist a:active, input:active{
+	color: #FFFFFF !important;
+	background-color: #0080FF;
+	text-decoration: none !important;
+	border: 2px solid #58ACFA;
+	border-radius: 16px;
+	padding: 6px 8px;
+}
+input[type=text]:focus{
+	color: #FFFFFF !important;
+	background-color: #0080FF !important;
+	text-decoration: none !important;
+	border: 2px solid #58ACFA;
+	border-radius: 16px;
+	padding: 6px 8px;
+}
+ul.tabbedlist li{
+	float: none;
+	list-style-type: none;
+	display: table-cell; 
+	color: #FFFFFF;
+	background-color: #0080FF;
+	border: 2px solid #0080FF;
+	cursor: pointer;
+	margin: 0;
+	padding: 6px 8px;
+}
+ul.tabbedlist li:hover, ul.tabbedlist li.selectedtab{
+	color: #FFFFFF;
+	background-color: #5BACFA;
+	border: 2px solid #5BACFA;
+	margin: 0;
+	padding: 6px 8px;
+}
+span.selector{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0 solid rgba(0,0,0,.2);
+    margin: 0;
+    padding: 0;
+}
+span.selector span{
+    position: relative;
+    display: none;
+	color: #FFFFFF;
+	background-color: #0080FF;
+    border: 2px solid #0080FF;
+    cursor: pointer;
+    text-align: center;
+	padding: 6px 8px;
+	zoom: 1;
+}
+span.selector span:hover{
+    position: relative;
+    display: none;
+	color: #FFFFFF;
+	background-color: #58ACFA;
+    border: 2px solid #58ACFA;
+	padding: 6px 8px;
+	zoom: 1;
+}
+span.selector span.selectedoption{
+    position: relative;
+    display: block;
+	border-radius: 16px;
+}
+span.selector span.chosenoption{
+    display: none;
+}
+img{
+	border: 0;
+}
+/*Borrowed From 2.1*/
+.icon{
+width: 16px;
+height: 16px;
+}
+.header{
+text-align: center;
+}
+a.address{
+color: #008000 !important;
+text-decoration: underline !important;
+}
+a.address:visited{
+color: #008000 !important;
+text-decoration: underline !important;
+}

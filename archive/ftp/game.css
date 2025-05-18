@@ -1,0 +1,88 @@
+ul.tabbedlist{
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+
+table#gametable{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td.gamesquare, td.incorrect, td.correct, td.unchosen{
+	color: #5BACFA;
+	background-color: #0080FF;
+	background-size: 100% 100%;
+	width: 150px;
+	height: 112px;
+	text-align: center;
+	border: 2px solid #FFFFFF;
+	padding: 0 0;
+	vertical-align:bottom;
+}
+
+td.gamesquare{
+	background-image: url(default.png);
+}
+td.incorrectLoRes{
+	background-image: url(incorrect-lores.png);
+}
+td.incorrect{
+	background-image: url(incorrect.png);
+}
+td.correctLoRes{
+	background-image: url(correct-lores.png);
+}
+td.correct{
+	background-image: url(correct.png);
+}
+td.unchosenLoRes{
+	background-image: url(unchosen-lores.png);
+}
+td.unchosen{
+	background-image: url(unchosen.png);
+}
+#clickedsquare{
+	background-size: 95% 95%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+th.horisontal, td.horisontal{
+	color: #000000;
+	background-color: #58ACFA;
+	font-weight: bold;
+	height: 20px;
+	text-align: center;
+	padding: 0 0;
+}
+th.vertical, td.vertical{
+	color: #000000;
+	background-color: #58ACFA;
+	font-weight: bold;
+	width: 20px;
+	text-align: center;
+	padding: 0 0;
+}
+
+#headerdiv{
+	top: 0;
+	left: 0;
+	background-color: #EEEEEE;
+	border-top: 2px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+	width: 900px;
+	text-align: center;
+	margin: 0 -8px 8px -8px;
+	padding: 8px;
+}
+
+/* #clickeddisplay, #founddisplay, #incorrectdisplay, */ #onboardstatus{
+	position: absolute;
+	color: #FFFFFF;
+	background-color: #5BACFA;
+	width: 134px;
+	height: 16px;
+	text-align: center;
+	padding: 8px 8px;
+}
